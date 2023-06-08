@@ -17,13 +17,13 @@
 </head>
 
 <body>
-    <div class="bg-container"></div>
+    <div class="bg-container-destination"></div>
     <header>
         <input type="checkbox" class="nav-toggle" id="nav-toggle">
         <nav>
             <ul>
-                <li class="first-li btn activebtn"><a class="a1" href="index.html">HOME</a></li>
-                <li class="btn"><a class="a2" href="destination.html">DESTINATION</a></li>
+                <li class="first-li btn"><a class="a1" href="index.html">HOME</a></li>
+                <li class="btn activebtn"><a class="a2" href="destination.html">DESTINATION</a></li>
                 <li class="btn"><a class="a3" href="#">CREW</a></li>
                 <li class="btn"><a class="a4" href="#">TECHNOLOGY</a></li>
             </ul>
@@ -41,6 +41,85 @@
             </svg>
         </span>
     </header>
+    <h1 class="destination-h1">Destination</h1>
+    <div class="planet-button-container">
+        <span class="planet-btn active-p-btn">Moon</span>
+        <span class="planet-btn">Mars</span>
+        <span class="planet-btn">Europa</span>
+        <span class="planet-btn">Titan</span>
+    </div>
+    <div class="wrapper-div">
+        <div class="wrapper-div2"></div>
+        <div class="absoluteFlexContainer fcontainer active-planet" id="Moon">
+            <div class="img-div">
+                <img class="planets" src="images/image-moon.webp" alt="">
+            </div>
+
+            <div class="content-div">
+                <h1>Moon</h1>
+                <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain
+                    perspective and come back refreshed. While you’re there, take in some history by visiting the
+                    Luna 2
+                    and Apollo 11 landing sites</p>
+                <div class="line-div"></div>
+                <p class="avg-distance-p">Avg, Distance</p>
+                <h1 class="avg-distance-h1">384,400 km</h1>
+                <p class="day-p">Travel Time</p>
+                <h1 class="day-h1">3 days</h1>
+            </div>
+        </div>
+        <div class="absoluteFlexContainer fcontainer" id="Mars">
+            <div class="img-div">
+                <img class="planets" src="images/image-mars.webp" alt="">
+            </div>
+
+            <div class="content-div">
+                <h1>Mars</h1>
+                <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest
+                    planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+                <div class="line-div"></div>
+                <p class="avg-distance-p">Avg, Distance</p>
+                <h1 class="avg-distance-h1">225 mil. km</h1>
+                <p class="day-p">Travel Time</p>
+                <h1 class="day-h1">9 months</h1>
+            </div>
+        </div>
+        <div class="absoluteFlexContainer fcontainer" id="Europa">
+            <div class="img-div">
+                <img class="planets" src="images/image-europa.webp" alt="">
+            </div>
+
+            <div class="content-div">
+                <h1>Europa</h1>
+                <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an
+                    icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your
+                    snug wintery cabin.</p>
+                <div class="line-div"></div>
+                <p class="avg-distance-p">Avg, Distance</p>
+                <h1 class="avg-distance-h1">628 mil. km</h1>
+                <p class="day-p">Travel Time</p>
+                <h1 class="day-h1">3 Years</h1>
+            </div>
+        </div>
+        <div class="absoluteFlexContainer fcontainer" id="Titan">
+            <div class="img-div">
+                <img class="planets" src="images/image-titan.webp" alt="">
+            </div>
+
+            <div class="content-div">
+                <h1>Titan</h1>
+                <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just
+                    a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+                <div class="line-div"></div>
+                <p class="avg-distance-p">Avg, Distance</p>
+                <h1 class="avg-distance-h1">1.6 bil. km</h1>
+                <p class="day-p">Travel Time</p>
+                <h1 class="day-h1">7 Years</h1>
+            </div>
+        </div>
+    </div>
+
+
     <script src="javaScriptFile.js" charset="utf-8"></script>
 </body>
 
